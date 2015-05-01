@@ -1,7 +1,7 @@
 var spawn = require('child_process').spawnSync;
 var fs = require('fs');
 if(process.argv.length != 5){
-	console.log("Invalid arguments count, must be two: wallpapers path, input fifo and switch time");
+	console.log("Invalid arguments count, must be 3: wallpapers path, input fifo and switch time");
 	process.exit(1);
 }
 var wallappers_path = process.argv[2];
